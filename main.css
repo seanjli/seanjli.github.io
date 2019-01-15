@@ -10,7 +10,7 @@ h1 {
 }
 
 p {
-  max-width: 65%;
+  max-width: 80%;
   min-width: 500px;
 }
 
@@ -35,12 +35,12 @@ video {
 
 .main {
   padding-left: 30px;
-  min-width: 75%;
+  min-width: 60%;
 }
 
 .nav {
   background-color: #2eb69a;
-  max-width: 25%;
+  max-width: 40%;
   min-width: 140px;
   flex: 1;
 }
