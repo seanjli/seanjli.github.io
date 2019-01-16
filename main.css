@@ -11,10 +11,11 @@ html, body {
 h1 {
   font-family: 'Raleway';
   font-size: 48px;
+  color: #2eb69a;
 }
 
 p {
-  max-width: 100%;
+  max-width: 80%;
   min-width: 500px;
 }
 
@@ -40,21 +41,25 @@ video {
 
 .main {
   margin-left: 200px;
-  padding-left: 10px;
+  padding-left: 50px;
   height: 100%
 }
 
 /* The sidebar menu */
 .nav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 200px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
   left: 0;
-  background-color: #2eb69a; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
+  background-color: #2eb69a;
+  overflow-x: hidden;
   padding-top: 20px;
+}
+
+.nav h2 {
+  padding: 6px 8px 6px 16px;
 }
 
 /* The navigation menu links */
