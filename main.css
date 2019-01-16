@@ -39,32 +39,19 @@ video {
 }
 
 .main {
-  margin-left: 140px;
-  padding-left: 30px;
+  margin-left: 240px;
+  padding-left: 10px;
   height: 100%
 }
 
 .nav {
   height: 100%;
   background-color: #2eb69a;
-  width: 140px;
+  width: 240px;
   flex: 1;
 }
 
 .nav a {
   font-size: 14pt;
   line-height: 20px;
-}
-
-.column {
-  float: left;
-  width: 15%;
-  padding: 10px;
-  word-break: break-all
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
