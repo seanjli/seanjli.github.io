@@ -39,20 +39,34 @@ video {
 }
 
 .main {
-  margin-left: 240px;
+  margin-left: 200px;
   padding-left: 10px;
   height: 100%
 }
 
+/* The sidebar menu */
 .nav {
-  width: 300px;
-  padding: 10px 10px 10px 10px;
-  height: 100%;
-  background-color: #2eb69a;
-  flex: 1;
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 200px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #2eb69a; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
 }
 
+/* The navigation menu links */
 .nav a {
-  font-size: 14pt;
-  line-height: 20px;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #FFFFFF;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.nav a:hover {
+  color: #111;
 }
