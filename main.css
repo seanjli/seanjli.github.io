@@ -45,6 +45,7 @@ video {
 }
 
 .nav {
+  padding: 10px 10px 10px 10px
   height: 100%;
   background-color: #2eb69a;
   width: 240px;
