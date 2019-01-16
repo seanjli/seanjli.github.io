@@ -1,14 +1,6 @@
 @font-face {
     font-family: 'Raleway';
-    src: url('/site/resources/fonts/Raleway-Regular.ttf');
-}
-@font-face {
-    font-family: 'Raleway-bold';
-    src: url('/site/resources/fonts/Raleway-Bold.ttf');
-}
-@font-face {
-    font-family: 'Raleway-semibold';
-    src: url('/site/resources/fonts/Raleway-SemiBold.ttf');
+    src: url('https://fonts.googleapis.com/css?family=Raleway');
 }
 
 html, body {
@@ -65,7 +57,8 @@ video {
 
 .column {
   float: left;
-  width: 33.33%;
+  width: 20%;
+  padding: 10px;
 }
 
 .row:after {
