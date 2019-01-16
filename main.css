@@ -66,6 +66,10 @@ video {
   padding: 6px 8px 6px 16px;
 }
 
+.nav p {
+  font-size: 25px;
+}
+
 /* The navigation menu links */
 .nav a {
   padding: 6px 8px 6px 16px;
