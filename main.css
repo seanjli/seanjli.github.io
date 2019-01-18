@@ -1,6 +1,8 @@
 @import url('//fonts.googleapis.com/css?family=Raleway');
 @import url('//fonts.googleapis.com/css?family=Open+Sans');
 
+#locations {list-style-position: inside;}
+
 html, body {
   font-family: 'Open Sans';
   margin: 0;
