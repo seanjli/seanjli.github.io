@@ -56,38 +56,29 @@ ul {
   height: 100%
 }
 
-/* The sidebar menu */
-.nav {
-  height: 100%;
-  width: 200px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
   background-color: #2eb69a;
-  overflow-x: hidden;
-  padding-top: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-.nav h2 {
-  padding: 6px 8px 6px 16px;
-  font-size: 48px
-}
-
-.nav p {
-  font-size: 12px;
-}
-
-/* The navigation menu links */
-.nav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #FFFFFF;
+.navbar a {
+  float: left;
   display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-/* When you mouse over the navigation links, change their color */
-.nav a:hover {
-  color: #111;
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  margin-top: 30px
 }
