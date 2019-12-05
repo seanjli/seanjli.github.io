@@ -57,7 +57,7 @@ ul {
 }
 
 /* The sidebar menu */
-.topnav {
+.nav {
   height: 100%;
   width: 200px;
   position: fixed;
@@ -69,17 +69,17 @@ ul {
   padding-top: 20px;
 }
 
-.topnav h2 {
+.nav h2 {
   padding: 6px 8px 6px 16px;
   font-size: 48px
 }
 
-.topnav p {
+.nav p {
   font-size: 12px;
 }
 
 /* The navigation menu links */
-.topnav a {
+.nav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
@@ -88,6 +88,6 @@ ul {
 }
 
 /* When you mouse over the navigation links, change their color */
-.topnav a:hover {
+.nav a:hover {
   color: #111;
 }
