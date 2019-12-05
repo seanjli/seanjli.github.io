@@ -7,7 +7,7 @@ html, body {
   padding: 0;
   max-width: 70%
   height: 100%;
-  overflow-x: hidden;
+  overflow-x: initial !important;
 }
 
 h1 {
