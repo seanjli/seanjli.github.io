@@ -4,45 +4,119 @@
 <head>
 	<title>About | Sean Li</title>
 	<meta charset="utf-8"/>
-	<link rel="stylesheet" type="text/css" href="main.css">
 	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<style>
+		@import url('//fonts.googleapis.com/css?family=Raleway');
+		@import url('//fonts.googleapis.com/css?family=Open+Sans');
+
+		.navbar-nav.navbar-center {
+    		position: absolute;
+    		left: 50%;
+    		transform: translatex(-50%);
+		}
+		.name {
+			text-align: center;
+			font-family: "Raleway" !important;
+			color: #2eb69a;
+		}
+		html, body {
+			font-family: 'Open Sans';
+			margin: 0;
+			padding: 0;
+			max-width: 70%
+			height: 100%;
+			overflow-x: hidden;
+			overflow-y:auto;
+		}
+
+		h1 {
+			font-family: "Raleway" !important;
+			color: #2eb69a;
+		}
+		a.title {
+			font-family: "Raleway" !important;
+			color: #000000;
+		}
+		a:not(.title){
+			color: #2eb69a;
+		}
+	</style>
 </head>
+
 <body>
-	<div class="nav">
-    <h2>Sean Li</h2>
-		<img align="middle" width="200px" height="200px" src="profile.png" alt="Profile picture for Bay Area student Sean Li">
-    <a href="index">About</a>
-		<a href="resume.pdf">Resume</a>
-		<a href="organizations">Organizations</a>
-		<a href="teaching">Teaching</a>
-		<a href="hobbies">Hobbies</a>
-		<p>Email: seanjli [at] gmail [dot] com</p>
-  </div>
-	<div class="main">
-		<h1>Homepage</h1>
-		<h2>Hi, I'm Sean.</h2>
-		<p>I'm currently a junior attending Monte Vista High School. I work to enhance education in the Bay Area through my organizations and initiatives, and compete in STEM competitions. Some of my accomplishments include being a two-time Math Olympiad Program attendee and serving as the president of the Youth EUCLID Association.</p>
-
-		<h2>I do competitions.</h2>
-		<p>I'm an attendee of the Math Olympiad Program and a 2018 USA Junior Math Olympiad Honorable Mention, among other things.</p>
-
-		<p>My resume can be found <a href="resume.pdf">here</a>.</p>
-
-		<h2>I help further education.</h2>
-		<p>I spend a lot of time thinking about learning. I serve as the president of the Youth EUCLID Association, a 501(c)(3) registered nonprofit dedicated to educational endeavors, and do volunteer work.</p>
-
-		<p>A slice of what I do can be found <a href="organizations">here</a>.</p>
-
-		<h2>I teach mathematics.</h2>
-		<p>I have over three years of teaching experience underneath my belt. I currently help students prepare for the MATHCOUNTS and AMC programs.</p>
-
-		<p>Learn about my classes and private tutoring <a href="teaching">here</a>.</p>
-
-		<h2>I'm fun!</h2>
-		<p>At least, I think so. I write problems and pursue other STEM endeavors in my free time.</p>
-
-		<p>Some trivia about me can be found <a href="hobbies">here</a>.</p>
-
+	<div class="container-fluid bg-light">
+		<br>
+<img class="mx-auto d-block" width="144px" height="144" src="profile.png" alt="Profile picture for Bay Area student Sean Li">
+<br>
+<h1 class="name">Sean Li</h1>
+  <nav class="navbar navbar-light navbar-expand-lg">
+	  <div class="container-fluid">
+    		<ul class="nav navbar-nav navbar-center">
+			<li class="nav-item"><a class="nav-link" href="index">About</a></li>
+			<li class="nav-item"><a class="nav-link" href="resume.pdf">Resume</a></li>
+			<li class="nav-item"><a class="nav-link" href="organizations">Organizations</a></li>
+			<li class="nav-item"><a class="nav-link" href="teaching">Teaching</a></li>
+			<li class="nav-item"><a class="nav-link" href="hobbies">Hobbies</a></li>
+   		 </ul>
+	  </div>
+  </nav>
+  <br>
+	</div>
+	<br>
+	<div class="container-lg m-4">
+		<h1>Hi, I'm Sean.</h1>
+		<p>I'm currently a senior attending Monte Vista High School. I work to enhance education in the Bay Area through my organizations and initiatives, and compete in STEM competitions. I am a three-time Math Olympiad Program attendee, a 501(c)(3) nonprofit president, and a combinatorial math researcher.</p>
+	<div class="container m-0">
+		<div class="row">
+			<div class="col-sm">
+				<h2><a class="title" href="resume.pdf">I do contests.</a></h2>
+				<p>I am a three-time attendee of the Math Olympiad Program and participate at collegiate math contests such as the Stanford, Caltech, and Harvard-MIT tournaments. My public resume can be found <a href="resume.pdf">here</a>.</p> 
+			</div>
+			<div class="col-sm">
+				<h2><a class="title" href="teaching">I think about education.</a></h2>
+				<p>I spend a lot of time thinking about learning. I founded a 501(c)(3) nonprofit and earned President's Volunteer Service Gold Medals for the past three years. Learn about my classes and private tutoring <a href="teaching">here</a>.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm">
+				<h2><a class="title" href="organizations">I teach math.</a></h2>
+				<p>For the past five years, from school curricula to middle school contests to advanced olympiads. A slice of what I do can be found <a href="organizations">here</a>.</p>
+			</div>
+			<div class="col-sm">
+				<h2><a class="title" href="hobbies">I'm fun!</a></h2>
+				<p>At least, I hope I'm fun. I write problems and try to learn new things whenever I can. Some trivia about me can be found <a href="hobbies">here</a>.</p>
+			</div>
+		</div>
+	</div>
+	<br>
 	</div>
 </body>
+
+<footer class="page-footer font-small">
+	<div class="container-fluid text-light text-center" style="background-color: #2eb69a;">
+		<br>
+		<div class="row">
+			<div class="col">
+				<h3 class="title text-light">Sean Li</h3>
+				<ul class="list-unstyled">
+					<li><a class="text-light" href="index">About</a></li>
+					<li><a class="text-light" href="resume.pdf">Resume</a></li>
+					<li><a class="text-light" href="organizations">Organizations</a></li>
+					<li><a class="text-light" href="teaching">Teaching</a></li>
+					<li><a class="text-light" href="hobbies">Hobbies</a></li>
+				</ul>
+			</div>
+			<div class="col">
+				<p><strong>Email</strong>: seanjli [at] gmail [dot] com</p>
+				<p>© 2020 Copyright Sean Li.</p>
+				<p>Made with HTML and CSS.</p>
+			</div>
+		</div>
+		<br>
+	</div>
+</footer>
+
 </html>
+

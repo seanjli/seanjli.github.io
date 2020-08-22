@@ -4,55 +4,137 @@
 <head>
 	<title>Teaching | Sean Li</title>
 	<meta charset="utf-8"/>
-	<link rel="stylesheet" type="text/css" href="main.css">
 	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<style>
+		@import url('//fonts.googleapis.com/css?family=Raleway');
+		@import url('//fonts.googleapis.com/css?family=Open+Sans');
+
+		.navbar-nav.navbar-center {
+    		position: absolute;
+    		left: 50%;
+    		transform: translatex(-50%);
+		}
+		.name {
+			text-align: center;
+			font-family: "Raleway" !important;
+			color: #2eb69a;
+		}
+		html, body {
+			font-family: 'Open Sans';
+			margin: 0;
+			padding: 0;
+			max-width: 70%
+			height: 100%;
+			overflow-x: hidden;
+			overflow-y:auto;
+		}
+
+		h1 {
+			font-family: "Raleway" !important;
+			color: #2eb69a;
+		}
+		
+		.title {
+			font-family: "Raleway" !important;
+			color: #000000;
+		}
+		
+		a:not(.title){
+			color: #2eb69a;
+		}
+	</style>
 </head>
+
 <body>
-	<div class="nav">
-    <h2>Sean Li</h2>
-		<img align="middle" width="200px" height="200px" src="profile.png" alt="Profile picture for Bay Area student Sean Li">
-    <a href="index">About</a>
-		<a href="resume.pdf">Resume</a>
-		<a href="organizations">Organizations</a>
-		<a href="teaching">Teaching</a>
-		<a href="hobbies">Hobbies</a>
-		<p>Email: seanjli [at] gmail [dot] com</p>
-  </div>
-	<div class="main">
+	<div class="container-fluid bg-light">
+		<br>
+<img class="mx-auto d-block" width="144px" height="144" src="profile.png" alt="Profile picture for Bay Area student Sean Li">
+<br>
+<h1 class="name">Sean Li</h1>
+  <nav class="navbar navbar-light navbar-expand-lg">
+	  <div class="container-fluid">
+    		<ul class="nav navbar-nav navbar-center">
+			<li class="nav-item"><a class="nav-link" href="index">About</a></li>
+			<li class="nav-item"><a class="nav-link" href="resume.pdf">Resume</a></li>
+			<li class="nav-item"><a class="nav-link" href="organizations">Organizations</a></li>
+			<li class="nav-item"><a class="nav-link" href="teaching">Teaching</a></li>
+			<li class="nav-item"><a class="nav-link" href="hobbies">Hobbies</a></li>
+   		 </ul>
+	  </div>
+  </nav>
+  <br>
+	</div>
+	<br>
+	<div class="container-lg m-4">
+	
 		<h1>Teaching</h1>
+	<div class="container m-1">
+		<br>
 
-		<h2>Youth EUCLID Association</h2>
+		<h2 class="title">Youth EUCLID Association</h2>
 
-		<p>I teach for our two top Math Practice programs, more specifically our Math Practice 4.0 class (to prepare for advanced AMC 10/12 concepts) and our Math Practice 5.0 class (an introduction to national and international olympiads). I also teach AMC-level winter and summer camps.</p>
+		<p>In 2019, I taught for our two top Math Practice program: our Math Practice 4.0 class (to prepare for advanced AMC 10/12 concepts) and our Math Practice 5.0 class (an introduction to national and international olympiads). I also teach AMC-level winter and summer camps.</p>
 
 		<p>Our website can be found <a href="https://youtheuclid.org">here.</a></p>
 
-		<h2>STEM Academy</h2>
+<br>
 
-		<p>I mentor students and serve as a teacher aide in the Math Olympiad 4.0 series, which serves as preparation for AIME and early USA Junior Math Olympiad problems.</p>
+		<h2 class="title">STEM Academy</h2>
 
-		<h2>Private Tutoring</h2>
+		<p>I currently am a mentor for the Math Advanced 5.0 program, where students well-versed in the basics of olympiad math learn new techniques and methods to clinch top spots in the USA national olympiads. I've also taught material for the computational AMC series. I've produced many olympiad and MOP qualifiers.</p>
 
-		<p>I will be offering private tutoring sessions for the coming 2019-20 school year, starting January 1, 2020. More updates will be posted as the date gets closer.</p>
+		<br>
+
+		<h2 class="title">Private Tutoring</h2>
+
+		<p>I will be offering private tutoring sessions for the coming 2020-21 school year. More updates will be posted as the school year progresses.</p>
 
 		<p>For personal requests or inquiries, please contact me at my email, seanjli [at] gmail [dot] com.</p>
 
-		<h2>Sample Materials</h2>
+		<br>
+
+		<h2 class="title">Sample Materials</h2>
 
 		<p>
 		Here are some samples of materials that I've created.
 		</p>
 		<ul>
-		<li> <b>Intro to Functional Equations</b> <a href="intro-fe.pdf">(pdf)</a>. A handout introducing what to do (and what not to do) when faced with a functional equation. Accompanied a two-hour lecture at Youth EUCLID.
-		<br>
+		<li> <b>Intro to FEs</b> <a href="intro-fe.pdf">(pdf)</a>. A handout introducing what to do (and what not to do) when faced with an FE. Accompanied a two-hour lecture at YEA.
 		<li> <b>Proposed Problem Collection</b> <a href="ppc.pdf">(pdf)</a>. A repository of 120 problems that I've proposed to contests.</li>
-		<br>
 		<li> <b>States and Recursion</b> (WIP) <a href="#">(pdf)</a>. Provides an introduction to solving problems via recursion probabilistically and in terms of expected value.</li>
-		<br>
-		<li> <b>Roots of a Polynomial</b> <a href="roots-handout.pdf">(pdf)</a>. Serves as a comprehensive overview to calculate symmetric expressions regarding a polynomial, as well as insight into its structure.</li>
-		<br>
+		<li> <b>Roots of a Polynomial</b> <a href="roots-handout.pdf">(pdf)</a>. Serves as a comprehensive overview to calculate symmetric expressions regarding the roots of a polynomial.</li>
 		<li> <b>Sample Exam</b> <a href="sample-exam.pdf">(pdf)</a>. Sample exam (with solutions) from Math Practice 5.0 program.</li>
 		</ul>
 	</div>
+	<br>
+	</div>
 </body>
+
+<footer class="page-footer font-small">
+	<div class="container-fluid text-light text-center" style="background-color: #2eb69a;">
+		<br>
+		<div class="row">
+			<div class="col">
+				<h3 class="title text-light">Sean Li</h3>
+				<ul class="list-unstyled">
+					<li><a class="text-light" href="index">About</a></li>
+					<li><a class="text-light" href="resume.pdf">Resume</a></li>
+					<li><a class="text-light" href="organizations">Organizations</a></li>
+					<li><a class="text-light" href="teaching">Teaching</a></li>
+					<li><a class="text-light" href="hobbies">Hobbies</a></li>
+				</ul>
+			</div>
+			<div class="col">
+				<p><strong>Email</strong>: seanjli [at] gmail [dot] com</p>
+				<p>© 2020 Copyright Sean Li.</p>
+				<p>Made with HTML and CSS.</p>
+			</div>
+		</div>
+		<br>
+	</div>
+</footer>
+
 </html>
+

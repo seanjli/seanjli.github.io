@@ -4,34 +4,127 @@
 <head>
 	<title>Organizations | Sean Li</title>
 	<meta charset="utf-8"/>
-	<link rel="stylesheet" type="text/css" href="main.css">
 	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<style>
+		@import url('//fonts.googleapis.com/css?family=Raleway');
+		@import url('//fonts.googleapis.com/css?family=Open+Sans');
+
+		.navbar-nav.navbar-center {
+    		position: absolute;
+    		left: 50%;
+    		transform: translatex(-50%);
+		}
+		.name {
+			text-align: center;
+			font-family: "Raleway" !important;
+			color: #2eb69a;
+		}
+		html, body {
+			font-family: 'Open Sans';
+			margin: 0;
+			padding: 0;
+			max-width: 70%
+			height: 100%;
+			overflow-x: hidden;
+			overflow-y:auto;
+		}
+
+		h1 {
+			font-family: "Raleway" !important;
+			color: #2eb69a;
+		}
+		a {
+			color: #2eb69a;
+		}
+		.title {
+			font-family: "Raleway" !important;
+			color: #000000;
+		}
+	</style>
 </head>
+
 <body>
-	<div class="nav">
-    <h2>Sean Li</h2>
-		<img align="middle" width="200px" height="200px" src="profile.png" alt="Profile picture for Bay Area student Sean Li">
-    <a href="index">About</a>
-		<a href="resume.pdf">Resume</a>
-		<a href="organizations">Organizations</a>
-		<a href="teaching">Teaching</a>
-		<a href="hobbies">Hobbies</a>
-		<p>Email: seanjli [at] gmail [dot] com</p>
-  </div>
-	<div class="main">
+	<div class="container-fluid bg-light">
+		<br>
+<img class="mx-auto d-block" width="144px" height="144" src="profile.png" alt="Profile picture for Bay Area student Sean Li">
+<br>
+<h1 class="name">Sean Li</h1>
+  <nav class="navbar navbar-light navbar-expand-lg">
+	  <div class="container-fluid">
+    		<ul class="nav navbar-nav navbar-center">
+			<li class="nav-item"><a class="nav-link" href="index">About</a></li>
+			<li class="nav-item"><a class="nav-link" href="resume.pdf">Resume</a></li>
+			<li class="nav-item"><a class="nav-link" href="organizations">Organizations</a></li>
+			<li class="nav-item"><a class="nav-link" href="teaching">Teaching</a></li>
+			<li class="nav-item"><a class="nav-link" href="hobbies">Hobbies</a></li>
+   		 </ul>
+	  </div>
+  </nav>
+  <br>
+	</div>
+	<br>
+	<div class="container-lg m-4">
+		
 		<h1>Organizations</h1>
 
-		<h2>Youth EUCLID Association</h2>
+		<br>
 
-		<p>I currently serve as the 2018-19 President for the Youth EUCLID Association (YEA). YEA is a reigstered 501(c)(3) nonprofit dedicated to furthering our values: Education, Unity, Community, Leadership, Initiative, and Development. We accomplish this by hosting events and offering low-cost or free classes, most notably our Math Practice series.</p>
+	<div class="container m-0">
+		<div class="row">
+			<div class="col-8">
+		<h2 class="title">Youth EUCLID Association</h2>
+			<p>I am the 2020-21 Senior President for the Youth EUCLID Association (YEA). YEA is a reigstered 501(c)(3) nonprofit dedicated to furthering our values: Education, Unity, Community, Leadership, Initiative, and Development. We accomplish this by hosting events and offering low-cost or free classes, most notably our Math Practice series.</p>
 
 		<p>Our website can be found <a href="https://youtheuclid.org">here</a>.</p>
-
-		<h2>Diablo Vista MATHCOUNTS Program</h2>
+			</div>
+			<div class="col">
+			
+				<img class="mx-auto d-block rounded" height="175px" src="yea.JPG" alt="Youth Euclid Association at Caltech Harvey Mudd tournament">
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-8">
+		<h2 class="title">Diablo Vista MATHCOUNTS Program</h2>
 
 		<p>I serve as President of the Diablo Vista Middle School program, overseeing the pith of the meetings: the mentorships. I also am the official team coach, teaching and guiding the top students in the program. Our team has consistently qualified for and succeeded in the state competition.</p>
 
 		<p>Our website can be found <a href="https://dvmathcounts.com">here</a>.</p>
+			</div>
+			<div class="col">	
+				<img class="mx-auto d-block rounded" height="175px" src="dvmc.JPG" alt="Diablo Vista Mathcounts winning local chapter competition">
+			</div>
+		</div>
+	</div>
+	<br>
 	</div>
 </body>
+
+
+<footer class="page-footer font-small">
+	<div class="container-fluid text-light text-center" style="background-color: #2eb69a;">
+		<br>
+		<div class="row">
+			<div class="col">
+				<h3 class="title text-light">Sean Li</h3>
+				<ul class="list-unstyled">
+					<li><a class="text-light" href="index">About</a></li>
+					<li><a class="text-light" href="resume.pdf">Resume</a></li>
+					<li><a class="text-light" href="organizations">Organizations</a></li>
+					<li><a class="text-light" href="teaching">Teaching</a></li>
+					<li><a class="text-light" href="hobbies">Hobbies</a></li>
+				</ul>
+			</div>
+			<div class="col">
+				<p><strong>Email</strong>: seanjli [at] gmail [dot] com</p>
+				<p>© 2020 Copyright Sean Li.</p>
+				<p>Made with HTML and CSS.</p>
+			</div>
+		</div>
+		<br>
+	</div>
+</footer>
+
 </html>

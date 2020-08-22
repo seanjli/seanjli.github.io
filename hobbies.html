@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script type="text/x-mathjax-config">
+<head>
+	<title>Hobbies | Sean Li</title>
+	<meta charset="utf-8"/>
+	<script type="text/x-mathjax-config">
 		MathJax.Hub.Config({
 		  jax: ["input/TeX", "output/HTML-CSS"],
 		  extensions: ["tex2jax.js"],
@@ -12,27 +15,76 @@
 		});
 	</script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
-<head>
-	<title>Hobbies | Sean Li</title>
-	<meta charset="utf-8"/>
-	<link rel="stylesheet" type="text/css" href="main.css">
 	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
-</head>
-<body>
-	<div class="nav">
-    <h2>Sean Li</h2>
-		<img align="middle" width="200px" height="200px" src="profile.png" alt="Profile picture for Bay Area student Sean Li">
-    <a href="index">About</a>
-		<a href="resume.pdf">Resume</a>
-		<a href="organizations">Organizations</a>
-		<a href="teaching">Teaching</a>
-		<a href="hobbies">Hobbies</a>
-		<p>Email: seanjli [at] gmail [dot] com</p>
-  </div>
-	<div class="main">
-		<h1>Hobbies</h1>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<style>
+		@import url('//fonts.googleapis.com/css?family=Raleway');
+		@import url('//fonts.googleapis.com/css?family=Open+Sans');
 
-		<h2>Problem Writing</h2>
+		.navbar-nav.navbar-center {
+    		position: absolute;
+    		left: 50%;
+    		transform: translatex(-50%);
+		}
+		.name {
+			text-align: center;
+			font-family: "Raleway" !important;
+			color: #2eb69a;
+		}
+		html, body {
+			font-family: 'Open Sans';
+			margin: 0;
+			padding: 0;
+			max-width: 70%
+			height: 100%;
+			overflow-x: hidden;
+			overflow-y:auto;
+		}
+
+		h1 {
+			font-family: "Raleway" !important;
+			color: #2eb69a;
+		}
+		
+		.title {
+			font-family: "Raleway" !important;
+			color: #000000;
+		}
+		
+		a:not(.title){
+			color: #2eb69a;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container-fluid bg-light">
+		<br>
+<img class="mx-auto d-block" width="144px" height="144" src="profile.png" alt="Profile picture for Bay Area student Sean Li">
+<br>
+<h1 class="name">Sean Li</h1>
+  <nav class="navbar navbar-light navbar-expand-lg">
+	  <div class="container-fluid">
+    		<ul class="nav navbar-nav navbar-center">
+			<li class="nav-item"><a class="nav-link" href="index">About</a></li>
+			<li class="nav-item"><a class="nav-link" href="resume.pdf">Resume</a></li>
+			<li class="nav-item"><a class="nav-link" href="organizations">Organizations</a></li>
+			<li class="nav-item"><a class="nav-link" href="teaching">Teaching</a></li>
+			<li class="nav-item"><a class="nav-link" href="hobbies">Hobbies</a></li>
+   		 </ul>
+	  </div>
+  </nav>
+  <br>
+	</div>
+	<br>
+	<div class="container-lg m-4">
+	
+		<h1>Hobbies</h1>
+	<div class="container m-1">
+		<br>
+
+		<h2 class="title" >Problem Writing</h2>
 
 		<p>I have written problems for many mock contests in the past few years. Most prominently, I have written for the <a href="https://artofproblemsolving.com/community/c594864h1747367">Christmas Math Competitions</a>, as well as for the nationwide <a href="https://nemomath.github.io">NEMO</a> (I also serve here as a logistics manager). For a list of 120 problems that I've proposed over the past few years, see <a href="ppc.pdf">here</a>,</p>
 
@@ -41,42 +93,66 @@
 		<ul>
 			<li> (NEMO 2018, Team #5) Five real numbers are selected independently and at random from the interval $ (0,1) $. Let $ m $ be the minimum of the five selected numbers. What is the probability that $ \frac{1}{4} < m < \frac{1}{2} $?
 			</li>
-			<br>
 			<li> (Th3's Math Bee, Round 2/2) What is the largest positive integer $ n $ such that $ n! $ divides $ \frac{(5!)!}{(4!)!} $?
 			</li>
-			<br>
 			<li> (All Algebra Assessment #8) The four unique positive integer solutions $ (a,b) $ to the equation $ 25^2 + 128^2 = a^2 + b^2 $ are $ (25,128),(128,25),(m,n), $ and $ (n,m) $ for positive integers $ m,n \neq 25,128 $. Find $ mn $.
 			</li>
-			<br>
 			<li> (Mock ARML #8) Regular hexagon $ ABCDEF $ has side length 1. Equilateral triangle $ XYZ $ is drawn such that $ A $ is on $ \overline{XY} $, $ C $ is on $ \overline{YZ} $, and $ E $ is on $ \overline{ZX} $. If $ 70\% $ of the interior of $ ABCDEF $ is also withn the interior of $ XYZ $, find $ XY $.
 			</li>
-			<br>
 			<li> (All Algebra Assessment #12) Let $ t = 2017^{2017} $. The value of
 			\[ \frac{1}{\pi} \sum\limits_{n=2} ^{t} \text{cos} ^{-1} \left( \frac{1 + n\sqrt{n^2 - 4}}{n^2 - 1} \right), \]
 			where all calculations are done in radians, is a real number $ A $. Find the integer closest to $ 1000A $.
-			<br>
 			Note: The notation $ \text{cos} ^{-1} x $ implies that the principal value be taken; in other words, for all $ x $, $ \text{cos} ^{-1} x \in [0,\pi] $.</li>
-			<br>
 			<li> (ELMO SL 2019 A2) Find all functions $ f:\mathbb Z\to \mathbb Z $ such that for all surjective functions $ g:\mathbb Z\to \mathbb Z $, $ f+g $ is also surjective. (A function $ g $ is <i>surjective</i> over $ \mathbb Z $ if for all integers $ y $, there exists an integer $ x $ such that $ g(x)=y $.)
 </li>
 
 		</ul>
 
-		<h2>Other Endeavors</h2>
+		<br>
 
-		<p>I'm working to try new things in the STEM fields. More specifically, I'm working to compete in physics competitions (such as <a href="https://www.aapt.org/physicsteam/2018/">USAPhO</a>) and computing olympiads (such as <a href="usaco.org">USACO</a>). I also am a competitor in impromptu speaking, and am an alternate for the prestigious CHSSA state tournament.</p>
+		<h2 class="title">Other Endeavors</h2>
 
-		<h2>Activities</h2>
+		<p>I'm working to try new things in the STEM fields. More specifically, I'm working to compete in physics competitions (such as <a href="https://www.aapt.org/physicsteam/2018/">USAPhO</a>) and computing olympiads (such as <a href="usaco.org">USACO</a>). I am currently learning Flask and Django and am working on an application to automatically generate practice tests from previous math contests. I also am a competitor in impromptu speaking, and am an alternate for the prestigious CHSSA state tournament.</p>
+
+		<br>
+
+		<h2 class="title">Activities</h2>
 
 		<p>Here's a cheesy but fun bit: if you <i>really</i> knew me, you would know that...
 			<ul>
 			<li> I play a bit of piano in my free time, and am a second-degree black belt. <br>
 			<li> I love watching movies and shows such as <a href="https://www.netflix.com/title/70264888">Black Mirror</a>. <br>
-			<li> I've recently been listening to <i>tons</i> of music, usually pop or K-pop. I also enjoy singing and dancing (shh), both habits that I happened to pick up from math camps. <br>
-			<li> I like remembering things, so I've experimented with keeping a private journal (typed), an idea I picked up from <a href="https://sparc-camp.org/">SPARC</a>. We're going 100 pages strong! <br>
+			<li> I've recently been listening to <i>tons</i> of music. I also enjoy singing and dancing (shh), both habits that I happened to pick up from math camps. <br>
+			<li> I like remembering things, so I've experimented with keeping a private journal, an idea I picked up from <a href="https://sparc-camp.org/">SPARC</a>. We're going 100 pages strong! <br>
 			<li> I really like popcorn, boba (mango or Thai tea, always 50-80% sugar and 25% ice), and anything potato.</p>
 		</ul>
-
+	</div>
+	<br>
 	</div>
 </body>
+
+<footer class="page-footer font-small">
+	<div class="container-fluid text-light text-center" style="background-color: #2eb69a;">
+		<br>
+		<div class="row">
+			<div class="col">
+				<h3 class="title text-light">Sean Li</h3>
+				<ul class="list-unstyled">
+					<li><a class="text-light" href="index">About</a></li>
+					<li><a class="text-light" href="resume.pdf">Resume</a></li>
+					<li><a class="text-light" href="organizations">Organizations</a></li>
+					<li><a class="text-light" href="teaching">Teaching</a></li>
+					<li><a class="text-light" href="hobbies">Hobbies</a></li>
+				</ul>
+			</div>
+			<div class="col">
+				<p><strong>Email</strong>: seanjli [at] gmail [dot] com</p>
+				<p>© 2020 Copyright Sean Li.</p>
+				<p>Made with HTML and CSS.</p>
+			</div>
+		</div>
+		<br>
+	</div>
+</footer>
+
 </html>
