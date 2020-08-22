@@ -7,11 +7,26 @@
 	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 	<style>
 		@import url('//fonts.googleapis.com/css?family=Raleway');
 		@import url('//fonts.googleapis.com/css?family=Open+Sans');
+		.navbar-nav {
+		    float:none;
+		    margin:0 auto;
+		    display: block;
+		    text-align: center;
+		}
 
-		.navbar-nav.navbar-center {
+		.navbar-nav > li {
+		    display: inline-block;
+		    float:none;
+		}
+		.navbar .navbar-collapse {
+		  text-align: center;
+		}
+		.centered {
     		position: absolute;
     		left: 50%;
     		transform: translatex(-50%);
@@ -35,12 +50,12 @@
 			font-family: "Raleway" ;
 			color: #2eb69a;
 		}
-		a {
-			color: #2eb69a;
-		}
-		.title {
+		a.title {
 			font-family: "Raleway" ;
 			color: #000000;
+		}
+		a:not(.title){
+			color: #2eb69a;
 		}
 	</style>
 </head>
@@ -53,13 +68,20 @@
 <h1 class="name">Sean Li</h1>
   <nav class="navbar navbar-light navbar-expand-lg">
 	  <div class="container-fluid">
-    		<ul class="nav navbar-nav navbar-center">
+		  <div class="navbar-header">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+		  </button>
+		  </div>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    		<ul class="nav navbar-nav">
 			<li class="nav-item"><a class="nav-link" href="index">About</a></li>
 			<li class="nav-item"><a class="nav-link" href="resume.pdf">Resume</a></li>
 			<li class="nav-item"><a class="nav-link" href="organizations">Organizations</a></li>
 			<li class="nav-item"><a class="nav-link" href="teaching">Teaching</a></li>
 			<li class="nav-item"><a class="nav-link" href="hobbies">Hobbies</a></li>
    		 </ul>
+	  	</div>
 	  </div>
   </nav>
   <br>
